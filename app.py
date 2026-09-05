@@ -6,7 +6,7 @@ st.header("EDA - Cars Dashboard (Plotly + Streamlit)")
 
 # Cargar datos
 car_data = pd.read_csv("vehicles_us.csv")
-
+st.write(car_data.columns)
 # Botones
 col1, col2 = st.columns(2)
 
